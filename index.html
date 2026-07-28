@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Girlfriend Day ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PAGE 1: Welcome/Open Me -->
+  <div class="page active" id="page-1">
+    <div class="card">
+      <h2>OPEN ME! 🎁</h2>
+      <button onclick="nextPage(2)">Next &rarr;</button>
+    </div>
+  </div>
+
+  <!-- PAGE 2: Cat / Picture Card -->
+  <div class="page" id="page-2">
+    <div class="card photo-card">
+      <img src="https://placekitten.com/300/300" alt="Cute Cat">
+      <p class="caption">Happy National Girlfriend's Day 🐾</p>
+      <button onclick="nextPage(3)">Next &rarr;</button>
+    </div>
+  </div>
+
+  <!-- PAGE 3: Award Certificate -->
+  <div class="page" id="page-3">
+    <div class="card certificate">
+      <h1>BEST GIRLFRIEND EVER AWARD 🏆</h1>
+      <p>This is to certify that you are the most amazing person ever!</p>
+      <button onclick="nextPage(4)">Tap the heart ❤️</button>
+    </div>
+  </div>
+
+  <!-- PAGE 4: Envelope Letter -->
+  <div class="page" id="page-4">
+    <div class="card letter">
+      <h2>Happy Girlfriend's Day, baby! 💌</h2>
+      <p>
+        I'm really lucky to have you in my life. Thank you for making even the ordinary days feel special. 
+        I hope you always keep smiling, because your happiness means everything to me. 
+        <br><br>
+        Love you always!
+      </p>
+      <button onclick="nextPage(5)">Next &rarr;</button>
+    </div>
+  </div>
+
+  <!-- PAGE 5: Photo Grid / Memories -->
+  <div class="page" id="page-5">
+    <div class="card grid-card">
+      <h3>My Favorite Memories 📸</h3>
+      <div class="photo-grid">
+        <img src="https://picsum.photos/150?random=1" alt="Memory 1">
+        <img src="https://picsum.photos/150?random=2" alt="Memory 2">
+        <img src="https://picsum.photos/150?random=3" alt="Memory 3">
+      </div>
+      <p>Thank you for existing! ❤️</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
